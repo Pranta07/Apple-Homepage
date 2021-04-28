@@ -1,0 +1,386 @@
+body{
+	margin: 0px;
+	flex-flow: column wrap;
+}
+nav{
+	height:40px;
+	background-color: black;
+	width: 100%;
+	line-height: 40px;
+	margin: 0px;
+}
+nav ul{
+	font-size: 15px; 
+	list-style: none;
+	display: flex;
+	padding-left: 0;
+	color: lightgrey;
+	margin:0px 180px;
+	justify-content: space-between;
+}
+nav li:hover{
+	color: white;
+}
+li img{
+	width: 15px;
+	height: auto;
+}
+.bag{
+	width:40px;
+    height: auto;
+}
+.covid{
+	background-color: #0071E3;
+	width: 100%;
+	height:40px;
+	line-height: 40px;
+	font-size: 15px; 
+}
+.covid p{
+	color: white;
+	margin: 0px;
+	text-align: center;
+}
+.covid p:hover{
+	text-decoration-line: underline;
+}
+div{
+	background-color: #f5f5f7;
+	width: 100%;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+}
+div p{
+	margin: 0px;
+}
+.shop{
+	color: #0071E3;
+	margin: 0px;
+}
+.shop:hover{
+	text-decoration-line: underline;
+}
+.imac{
+	text-align: center;
+	margin-top: 0px;
+	background-color: #f9f5f5;
+	color: black;
+}
+.imac p{
+	margin: 0px; 
+	padding-bottom: 8px;
+	font-size: 25px;
+}
+.imac p b{
+	font-size: 50px;
+}
+#imac1{
+	margin: 0px;
+	padding-top: 40px;
+}
+.order{
+	color: grey;
+	font-size: 18px;
+}
+.learn{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 22px;
+	color: #0071E3;
+}
+.learn:hover{
+	text-decoration-line: underline;
+}
+.imac img{
+	width: 60%;
+    height: 350px;
+    padding-top: 10px;
+}
+.iphone12{
+	text-align: center;
+	margin-top: 10px;
+	padding-top: 40px;
+	background-color: #f5f5f7;
+	color: black;
+}
+.iphone12 p{
+	margin: 0px;
+	padding-bottom: 8px;
+	font-size: 25px;
+}
+.iphone12 p b{
+	font-size: 50px;
+}
+.from{
+	color: grey;
+	font-size: 18px;
+	margin-bottom: 0px;
+}
+.iphone12.learn{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 22px;
+	color: #0071E3;
+}
+.iphone12.learn:hover{
+	text-decoration-line: underline;
+}
+.iphone12 img{
+    width: 60%;
+    height: 400px;
+    padding-top: 10px;	
+}
+#iphone12pro{
+	background-color: black;
+}
+#iphone12pro p b{
+	color: white;
+}
+#iphone12pro p strong{
+	color: white;
+}
+#iphone12pro img{
+	height: 350px;
+}
+
+.row {  
+  	display: flex;
+}
+.row2 {  
+  	display: flex;
+}
+.lastrow{
+	display: flex;
+}
+.left {
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+}
+
+.right {
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .row{ 
+    flex-direction: column;
+  }
+  .row2{
+   	flex-direction: column;
+  }
+  .lastrow{
+    flex-direction: column;
+  }
+}
+#privacy{
+	background-color: black;
+	margin: 10px 10px 10px 10px;
+	padding-top: 140px;
+	padding-bottom: 120px;
+	text-align: center;
+}
+#privacy p b{
+	color: white;
+	font-size: 70px;
+}
+#privacy p strong{
+	color: white;
+}
+#privacy img{
+	width: 100px;
+	height: 120px;
+}
+#privacy .learn{
+	color: #0071E3;
+	font-size: 20px;
+}
+#ipadpro{
+	background-color: black;
+	margin: 10px 10px 10px 10px;
+	text-align: center;
+}
+#ipadpro p b{
+	color: white;
+	font-size: 40px;
+}
+#ipadpro p strong{
+	color: white;
+}
+#ipadpro img{
+	width: 100%;
+	height: auto;
+}
+#ipadpro .learn{
+	color: #0071E3;
+	font-size: 20px;
+}
+#watch{
+	background-color: black;
+	margin: 0px 10px 10px 10px;
+	padding-top: 100px;
+	text-align: center;
+}
+#watch p b{
+	color: white;
+	font-size: 30px;
+}
+#watch p strong{
+	color: white;
+}
+#watch .img1{
+	width: 50px;
+	height: 60px;
+}
+#watch .img2{
+	width: 70%;
+	height: auto;
+}
+#watch .learn{
+	color: #0071E3;
+	font-size: 20px;
+}
+.red{
+	color: #CA2626;
+	font-size: 13px; 
+}
+#moms{
+	background-color: #f5f5f7;
+	margin: 0px 10px 10px 10px;
+	padding-top: 50px;
+	text-align: center;
+}
+#moms p b{
+	color: black;
+	font-size: 40px;
+}
+#moms p strong{
+	color: white;
+}
+#moms img{
+	width: 70%;
+	height: auto;
+}
+#moms .learn{
+	color: #0071E3;
+	font-size: 20px;
+}
+#card{
+	background-color: #f5f5f7;
+	margin: 0px 10px 10px 10px;
+	padding-top: 50px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+}
+#card p b{
+	color: black;
+	font-size: 30px;
+}
+#card p strong{
+	color: white;
+}
+#card .img1{
+	width: 50px;
+	height: 60px;
+}
+#card .img2{
+	width: 80%;
+	height: auto;
+}
+#card .learn{
+	color: #0071E3;
+	font-size: 20px;
+}
+#card .from{
+	color: black;
+}
+#tv{
+	background-image: url(https://www.apple.com/newsroom/images/product/os/standard/apple_apple-tv-plus-earth-day_the-year-earth-changed_03292021.jpg.news_app_ed.jpg); 
+	background-size: cover;
+	margin: 0px 10px 10px 10px;
+	padding-top: 50px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+}
+#tv p b{
+	color: white;
+	font-size: 20px;
+}
+#tv p strong{
+	color: white;
+	font-size: 50px;
+}
+#tv .img1{
+	width: 50px;
+	height: 60px;
+}
+#tv .img2{
+	width: 100%;
+	height: auto;
+}
+#tv .learn{
+	color: white;
+	font-size: 20px;
+}
+#tv .from{
+    margin-top: 100px;
+	color: white;
+	font-size: 18px;
+	margin-bottom: 0px;
+}
+
+.footer{
+	color: grey;
+	font-size: 13px;
+	background-color: #f5f5f7;
+	padding-top: 10px;
+	padding-left: 140px;
+	padding-right: 140px;
+	padding-bottom: 20px;
+	margin: 0px;
+}
+.terms{
+	color: black;
+}
+.terms:hover{
+	text-decoration-line: underline;
+}
+.shoplearn{
+	padding-right: 50px;
+}
+#list1{
+	padding-left: 0px;
+}
+.shoplearn h1{
+	color: black;
+	margin-bottom: 0px;
+}
+.shoplearn ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+.shoplearn ul li{
+	color: grey;
+	padding-bottom: 10px;
+}
+.shoplearn ul li:hover{
+	text-decoration-line: underline;
+	color: black;
+}
+.learn1{
+	font-size: 13px;
+	color: #0071E3;
+}
+.learn1:hover{
+	text-decoration-line: underline;
+}
+.hover:hover{
+	text-decoration-line: underline;
+	color: black;
+}
